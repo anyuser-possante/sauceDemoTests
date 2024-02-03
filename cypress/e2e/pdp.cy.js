@@ -12,4 +12,4 @@ describe('PDP', () => {
         cy.url().should('include', '/cart');
 
     });
-});
+}); 

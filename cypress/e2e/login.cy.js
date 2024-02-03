@@ -16,5 +16,5 @@ describe('Login', () => {
         cy.get('input#login-button').click();
         cy.get('.title').should('contain', 'Products');
       });
-  });
+  }); 
   

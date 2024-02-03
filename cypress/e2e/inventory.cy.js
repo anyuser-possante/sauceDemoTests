@@ -10,4 +10,4 @@ describe('Inventory Page', () => {
         cy.get('.inventory_details_name.large_size').should('have.text', 'Sauce Labs Backpack');
     });   
   });
-  
+   
